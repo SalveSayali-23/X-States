@@ -133,7 +133,7 @@ const App = () => {
       </div>
       {selectedCities && (
         <h2 className="result">
-          You selected <span className="highlight">{selectedCities}</span>
+          You selected <span className="highlight">{selectedCities},</span>
           <span className="fade">
             {" "}
             {selectedState}, {selectedCountry}
